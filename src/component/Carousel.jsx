@@ -1,7 +1,9 @@
 import React, { useRef, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "bootstrap";
-import Image from "./Image.jsx";
+// import Image from "./Image.jsx";
+import foto_1 from '/src/assets/img/foto_1.png';
+import foto_2 from '/src/assets/img/foto_2.png';
 
 export default function MyCarousel() {
   const myCarouselRef = useRef(null);
@@ -24,21 +26,21 @@ export default function MyCarousel() {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={Image.imagePhotoOne} className="d-block w-100" alt="..." />
+          <img src={foto_1} className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src={Image.imagePhotoTwo} className="d-block w-100" alt="..." />
+          <img src={foto_2} className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src={Image.imagePhotoOne} className="d-block w-100" alt="..." />
+          <img src={foto_1} className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>

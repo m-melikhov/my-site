@@ -1,6 +1,6 @@
 import '../style/Header.css';
-import Image from "./Image.jsx";
-import foto_1 from '/src/assets/img/2345.jpg';
+// import Image from "./Image.jsx";
+import foto_2 from '/src/assets/img/foto_2.png';
 
 
 export default function Header() {
@@ -11,8 +11,7 @@ export default function Header() {
         <p className="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
       </div>
       <div className="col-md-5">
-        <img className='header-img' src={Image.imagePhotoTwo} alt="Header" />
-        <img className='header-img' src={foto_1} alt="Header" />
+        <img className='header-img' src={foto_2} alt="Header" />
       </div>
     </div>
   )
