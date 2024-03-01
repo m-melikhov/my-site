@@ -1,5 +1,7 @@
 import '../style/Header.css';
 import Image from "./Image.jsx";
+import foto_1 from '/src/assets/img/2345.jpg';
+
 
 export default function Header() {
   return (
@@ -10,6 +12,7 @@ export default function Header() {
       </div>
       <div className="col-md-5">
         <img className='header-img' src={Image.imagePhotoTwo} alt="Header" />
+        <img className='header-img' src={foto_1} alt="Header" />
       </div>
     </div>
   )
