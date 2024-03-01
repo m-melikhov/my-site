@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  min-height: 100%;
+  background-color: #e5e5e7;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+
+.col-md-5 {
+  background-color: black;
+  box-sizing: border-box;
+  opacity: 0.4;
+  z-index: 2;
+}
+
+.header-img {
+  max-width: 100%;
+  box-sizing: border-box;
+  z-index: -1;
+}
